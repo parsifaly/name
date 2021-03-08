@@ -1,0 +1,474 @@
+$font-family1: "Montserrat", sans-serif;
+$font-family2: "Roboto", sans-serif;
+
+.container {
+  position: relative;
+  width: 1440px;
+}
+.col {
+  width: 100%;
+}
+.index {
+  position: relative;
+}
+
+.col__foto {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+.dreamshare {
+  position: absolute;
+  width: 100%;
+  font-family: $font-family1;
+  height: 15%;
+}
+.login {
+  position: absolute;
+
+  margin-left: 70%;
+  margin-top: 5%;
+
+  .col__login {
+    color: white;
+    padding: 5px 10px 5px 10px;
+    font-family: $font-family2;
+  }
+  .col__signup {
+    color: white;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 5px 10px 5px 10px;
+    font-family: $font-family2;
+  }
+}
+
+.col__dreamshare {
+  font-size: 100%;
+  margin-left: 11%;
+  margin-top: 5%;
+  color: white;
+}
+.share {
+  position: absolute;
+
+  width: 100%;
+
+  height: 50%;
+  text-align: center;
+
+  .col__share {
+    color: white;
+    font-size: 52px;
+    font-family: $font-family1;
+    padding-top: 15%;
+  }
+  .col__sharee {
+    color: white;
+    font-size: 52px;
+    font-family: $font-family1;
+  }
+  .find {
+    color: white;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+  }
+  .button__find {
+    margin-top: 1%;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+    background: #ff4e50;
+    border-radius: 40px;
+    font-size: 14px;
+    font-family: $font-family1;
+  }
+}
+.col__how {
+  width: 100%;
+  padding-top: 5%;
+  font-size: 26px;
+  text-align: center;
+  border-radius: 40px;
+  font-family: $font-family1;
+  font-weight: normal;
+}
+.img {
+  width: 100%;
+}
+.picture {
+  position: relative;
+}
+.fa {
+  position: absolute;
+  width: 100%;
+  margin-top: 55%;
+  padding-left: 10%;
+  .how {
+    padding-right: 10%;
+    color: white;
+    font-size: 24px;
+    padding-top: 30px;
+    font-family: $font-family1;
+  }
+  .booton {
+    background: #ff4e50;
+    border-radius: 40px;
+    font-family: $font-family1;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+  }
+  .libero {
+    padding-right: 10%;
+    color: white;
+    font-size: 14px;
+    font-family: $font-family1;
+  }
+}
+.faa {
+  position: absolute;
+  width: 100%;
+  margin-top: 70%;
+  padding-left: 10%;
+  .howw {
+    padding-right: 10%;
+    color: white;
+    font-size: 24px;
+    font-family: $font-family1;
+  }
+  .bootonn {
+    background: #ff4e50;
+    border-radius: 40px;
+    border-radius: 40px;
+    font-family: $font-family1;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+  }
+  .liberoo {
+    padding-right: 10%;
+    color: white;
+    font-size: 14px;
+  }
+}
+.kolo {
+  text-align: center;
+  .kolo__name {
+    color: #444444;
+    padding-top: 20px;
+    font-size: 14px;
+    font-family: $font-family1;
+  }
+  .lives {
+    font-size: 14px;
+    color: #666666;
+  }
+}
+
+.kolo__icons {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  i {
+    background-color: #ff4e50;
+    margin-top: 42%;
+    width: 20%;
+    height: 15%;
+    padding-left: 0%;
+    padding-top: 4%;
+    border-radius: 100%;
+    border: 3px solid white;
+  }
+  .fa-paint-brush {
+    background-color: #19d4ca;
+  }
+  .fa-camera {
+    background-color: #ffa710;
+  }
+  .fa-plane {
+    background-color: #667df3;
+  }
+}
+
+.kolo__one {
+  width: 60%;
+  padding-top: 20px;
+  border-radius: 100%;
+}
+.see {
+  background: #ffffff;
+  width: 20%;
+  border: 2px solid #ff4e50;
+  box-sizing: border-box;
+  border-radius: 40px;
+  color: #ff4e50;
+  font-size: 14px;
+  line-height: 17px;
+  height: 30px;
+  font-family: $font-family1;
+}
+.dickover {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  color: white;
+  .dickover__sport {
+    font-size: 22px;
+    font-family: $font-family1;
+  }
+}
+.hi {
+  font-size: 18px;
+}
+.col__how {
+  input {
+    width: 60%;
+    margin-left: 40%;
+  }
+  .booton {
+    width: 60%;
+    background: #ff4e50;
+    border-radius: 40px;
+    color: white;
+    margin-right: 40%;
+  }
+}
+.dreamshares {
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  padding-top: 30px;
+  display: flex;
+  align-items: flex-end;
+
+  color: #ff4e50;
+}
+.company {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  padding-bottom: 10px;
+
+  padding-top: 30px;
+
+  color: #444444;
+}
+.contact {
+  list-style-type: none;
+  text-align: start;
+
+  a {
+    color: #999999;
+  }
+  a:hover {
+    color: black;
+  }
+}
+.imgg {
+  width: 100%;
+}
+.partners {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  padding-bottom: 10px;
+
+  padding-top: 30px;
+}
+.designedby {
+  padding-top: 30px;
+  text-align: end;
+}
+.areto {
+  width: 110px;
+  margin-left: 52%;
+}
+
+@media screen and (max-width: 768px) {
+  .col__share {
+    margin-top: 120px;
+  }
+  .holiday {
+    font-size: 20px;
+  }
+  .fa {
+    position: absolute;
+    width: 100%;
+    margin-top: 60%;
+    padding-left: 10%;
+    .how {
+      padding-right: 10%;
+      color: white;
+      font-size: 24px;
+      padding-top: 30px;
+    }
+    .booton {
+      background: #ff4e50;
+      border-radius: 40px;
+    }
+    .libero {
+      padding-right: 10%;
+      color: white;
+      font-size: 14px;
+    }
+  }
+  .faa {
+    position: absolute;
+    width: 100%;
+    margin-top: 80%;
+    padding-left: 10%;
+    .howw {
+      padding-right: 10%;
+      color: white;
+      font-size: 24px;
+    }
+    .bootonn {
+      background: #ff4e50;
+      border-radius: 40px;
+    }
+    .liberoo {
+      padding-right: 10%;
+      color: white;
+      font-size: 14px;
+    }
+  }
+  .col__how {
+    input {
+      width: 100%;
+      margin-left: 0%;
+    }
+    .booton {
+      margin-right: 0%;
+      width: 100%;
+      background: #ff4e50;
+      border-radius: 40px;
+      color: white;
+    }
+  }
+  .see {
+    width: 40%;
+    height: 30px;
+  }
+
+  .picture {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+
+    .img {
+      margin: -34% 0px -34% 0px;
+    }
+    .imgg {
+      width: 100%;
+      margin: -8% 0px -8% 0px;
+    }
+  }
+  .col {
+    width: 100%;
+    height: 700px;
+  }
+  .index {
+    position: relative;
+    /*overflow:hidden;*/
+    width: 100%;
+    height: 700px;
+    .col__foto {
+      top: 50%;
+      left: 50%;
+      /*transform:translate(-50%,-50%);*/
+      width: 100%;
+      height: 700px;
+      object-fit: cover;
+    }
+  }
+  .dreamshares {
+    display: flex;
+    justify-content: center;
+  }
+  .contact {
+    padding-left: 20px;
+  }
+
+  ul {
+    padding-left: 0;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .designedby {
+    padding-top: 0;
+    text-align: center;
+  }
+  .areto {
+    width: 110px;
+    margin-left: 0;
+  }
+  .company {
+    padding-bottom: 0px;
+
+    padding-top: 0px;
+  }
+  .partners {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    padding-bottom: 0px;
+
+    padding-top: 0px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .col__share {
+    margin-top: 100px;
+  }
+  .share {
+    font-size: 20px;
+  }
+  .holiday {
+    font-size: 20px;
+  }
+  .fa {
+    position: absolute;
+    width: 100%;
+    margin-top: 40%;
+    padding-left: 10%;
+    .how {
+      padding-right: 10%;
+      color: white;
+      font-size: 24px;
+      padding-top: 30px;
+    }
+    .booton {
+      background: #ff4e50;
+      border-radius: 40px;
+    }
+    .libero {
+      padding-right: 10%;
+      color: white;
+      font-size: 14px;
+    }
+  }
+  .col__how {
+    input {
+      width: 100%;
+      margin-left: 0%;
+    }
+    .booton {
+      margin-right: 0%;
+      width: 100%;
+      background: #ff4e50;
+      border-radius: 40px;
+      color: white;
+    }
+  }
+  .see {
+    width: 70%;
+    height: 30px;
+  }
+}
